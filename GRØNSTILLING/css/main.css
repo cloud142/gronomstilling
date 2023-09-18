@@ -2,6 +2,7 @@ body {
 font-family: 'Arquitecta', sans-serif;
 display: flex;
 flex-direction: column;
+background-color: #002539;
 }
 
 html, body {
