@@ -1,0 +1,24 @@
+body {
+font-family: 'Arquitecta', sans-serif;
+display: flex;
+flex-direction: column;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  flex-shrink: 0;
+  background-color: #F6F6F6;
+  padding: 20px 0;
+  text-align: center;
+  position: sticky;
+  bottom: 0;
+  z-index: 5;
+}
