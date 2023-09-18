@@ -2,6 +2,7 @@ body {
 display: flex;
 flex-direction: column;
 background-color: #002539;
+
 }
 
 html, body {
@@ -18,4 +19,73 @@ footer {
   position: sticky;
   bottom: 0;
   z-index: 5;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:rgb(35, 30, 30);
+  padding: 20px;
+  height: 80px;
+  font-family: 'Sono', sans-serif;
+}
+
+.logo img {
+  height: 55px;
+  cursor: pointer;
+}
+
+.main-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav li {
+  margin-right: 20px;
+
+}
+
+.main-nav li:last-child {
+  margin-right: 0;
+}
+
+.main-nav li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family:"Sono";
+  transition: color 0.3s ease;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.3s ease-in-out;
+}
+
+.main-nav li a:hover {
+  color: grey;
+  border-bottom: 1px solid white;
+}
+
+.header-buttons {
+  display: flex;
+}
+
+.button1 {
+   padding: 10px 50px;
+   margin-right: 10px;
+   border: none;
+   border-radius: 30px;
+   background-color: #002539;
+   color: white;
+   font-size: 20px;
+   border: 2px solid white;
+   font-family: "Sono";
+   transition: background-color 0.3s ease-in-out;
+}
+.button1:hover {
+  background-color: #002539;
+  border-radius: 30px;
+  border-color: #002539;
+  color: white;
 }
