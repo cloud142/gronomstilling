@@ -25,10 +25,11 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color:rgb(35, 30, 30);
+  background-color:#002539;
   padding: 20px;
   height: 80px;
   font-family: 'Sono', sans-serif;
+  border-bottom: 2px solid white;
 }
 
 .logo img {
@@ -89,3 +90,16 @@ footer {
   border-color: #002539;
   color: white;
 }
+
+.main h1 {
+color: white;
+margin: 0;
+font-family: "Dancing Script";
+font-size: 49px;
+
+  }
+
+  .main{
+  text-align: center;
+  margin-top: 30px;
+    }
