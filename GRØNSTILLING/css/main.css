@@ -18,7 +18,7 @@ footer {
   flex-shrink: 0;
   position: sticky;
   bottom: 0;
-  z-index: 5;
+  background-color:#002539;
 }
 
 .main-header {
@@ -107,7 +107,6 @@ font-size: 49px;
 
     .container {
     display: flex;
-    background-color: white;
     padding: 20px;
 }
 
@@ -119,9 +118,52 @@ font-size: 49px;
 .image {
     flex: 1;
     padding: 20px;
+    margin-left: 10%;
 }
 
-img {
-    max-width: 100%;
+.image img {
+    max-width: 55%;
     height: auto;
+    border-radius: 40px;
+}
+
+.text-box p {
+background-color: white;
+padding: 30px;
+border-radius: 20px;
+font-family: "Sono", bold;
+margin-left: 20%;
+font-size: 20px;
+  }
+
+  .line {
+    width: 25%;
+    margin-left: 55%;
+    height: 1px;
+    background-color: white;
+    margin-top: -5%;
+}
+
+.button2 {
+   padding: 10px 50px;
+   margin-left: 60%;
+   border: none;
+   border-radius: 30px;
+   background-color: white;
+   color: black;
+   font-size: 20px;
+   font-family: "Sono";
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+
+
+.mainfooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 80px;
+  font-family: 'Sono', sans-serif;
+  border-top: 2px solid white;
 }
